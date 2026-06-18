@@ -30,7 +30,9 @@ if st.button("Generate Notes"):
                 st.markdown("### 📝 Final Notes")
                 st.write(notes)
             except Exception as e:
-                st.error(f"Something went wrong: {e}")
+                if is_url:
+                    st.error("⚠️ Couldn't fetch this YouTube video right now (YouTube sometimes blocks cloud servers). Please try uploading the video file directly instead — it works reliably!")
+                else:
+                    st.error(f"Something went wrong: {e}")
     else:
         st.warning("Please provide a YouTube link or upload a video file first.")
-

@@ -13,11 +13,7 @@ def download_audio(url, output_path="downloads"):
             'preferredcodec': 'wav',
             'preferredquality': '192',
         }],
-        'extractor_args': {
-            'youtube': {
-                'player_client': ['android'],
-            }
-        },
+        'cookiefile': 'cookies.txt',
     }
 
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
@@ -40,7 +36,7 @@ def extract_audio_from_file(video_path, output_path="downloads"):
 
 
 if __name__ == "__main__":
-    video_path = r"E:\20250114_155913.mp4"
-    audio_file = extract_audio_from_file(video_path)
+    test_url = "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+    audio_file = download_audio(test_url)
     print("Audio saved at:", audio_file)
     
