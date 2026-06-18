@@ -13,6 +13,11 @@ def download_audio(url, output_path="downloads"):
             'preferredcodec': 'wav',
             'preferredquality': '192',
         }],
+        'extractor_args': {
+            'youtube': {
+                'player_client': ['android'],
+            }
+        },
     }
 
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
