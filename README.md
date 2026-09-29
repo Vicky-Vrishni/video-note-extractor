@@ -356,6 +356,34 @@ This project is open-source and available under the terms of the license include
 
 ---
 
+
+# Sample Video Notes
+
+## Video Summary
+
+This video explains the fundamentals of machine learning and how models learn patterns from data.
+
+## Key Points
+
+* Machine learning enables systems to learn from data.
+* Supervised learning uses labeled datasets.
+* Unsupervised learning identifies hidden patterns.
+* Model evaluation helps measure performance.
+
+## Action Items
+
+* Review the difference between supervised and unsupervised learning.
+* Practice training a simple machine learning model.
+* Explore model evaluation metrics.
+
+## Important Concepts
+
+* Machine Learning
+* Training Dataset
+* Model Evaluation
+* Predictive Modeling
+
+
 ## 👨‍💻 Author
 
 **Vicky Vrishni**
@@ -366,9 +394,3 @@ https://github.com/Vicky-Vrishni
 Project Repository:
 https://github.com/Vicky-Vrishni/video-note-extractor
 
-```
-
-**Ek important point:** README mein maine wahi technologies/features rakhe hain jo current repository ke code se verify ho rahe hain—Streamlit UI, `yt-dlp`/FFmpeg audio extraction, Groq Whisper Large V3 transcription, aur Llama 3.1 8B Instant note generation.
-
-Agar aap chaho to main iska **aur zyada professional GitHub README version** bhi bana sakta hoon jisme **badges, screenshots section, architecture diagram, demo section, API flow aur resume/interview-friendly project description** ho.
-```
