@@ -350,7 +350,7 @@ Make your changes, commit them, and open a pull request.
 
 ---
 
-## 📜 License
+##  License
 
 This project is open-source and available under the terms of the license included in this repository.
 
