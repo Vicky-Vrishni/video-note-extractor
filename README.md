@@ -1,4 +1,4 @@
-# 📹 Video Note Extractor
+# Video Note Extractor
 
 An AI-powered video note-taking tool that converts lectures, tutorials, and other video content into **organized notes, important points, timestamps, and action items**.
 
