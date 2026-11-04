@@ -1,5 +1,5 @@
 import streamlit as st
-from main import process_video
+from main import process_video 
 import os
 st.title("📹 Video Note Extractor")
 st.write("Upload a video or paste a YouTube link to get organized notes, timestamps, and action items.")
