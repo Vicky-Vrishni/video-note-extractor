@@ -2,7 +2,7 @@ from extract_audio import download_audio, extract_audio_from_file
 from transcribe import transcribe_audio
 from generate_notes import generate_notes
 def process_video(source, is_url=True):
-    print("Step 1: Extracting audio...")
+    print("Step 1: Extracting audio...") 
     if is_url:
         audio_path = download_audio(source)
     else:
