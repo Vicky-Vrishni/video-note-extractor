@@ -32,4 +32,3 @@ if __name__ == "__main__":
     
     print("\n========== FINAL NOTES ==========\n")
     print(final_notes)
-    
